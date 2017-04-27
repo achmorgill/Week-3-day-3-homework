@@ -66,6 +66,16 @@ class Album
     result = SqlRunner.run(sql)
   end
 
+  def artist
+    sql = "
+    SELECT * FROM artist
+    WHERE id = #{@artist_id}"
+    result = SqlRunner.run(sql)
+    
+    # need to finish this
+    # ++++++++++++++++++++
+  end
+
   
 
 

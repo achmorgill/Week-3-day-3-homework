@@ -4,7 +4,7 @@ require_relative('../models/artist.rb')
 require_relative('../models/album.rb')
 
 Album.delete_all()
-# Artist.delete_all()
+Artist.delete_all()
 
 artist1 = Artist.new({'name' => 'Elton John'})
 artist2 = Artist.new({'name' => 'Elkie Brooks'})
